@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Clarusway Form</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https: //fonts.googleapis.com/css2? family= EB+Garamond & family= Lora & family= Square+Peg & display=swap" rel="stylesheet">
+</head>
+<style>
+	body{
+		font-family: 'EB Garamond', serif, cursive;;
+	}
+</style>
+ <body><!-- kişisel bilgiler -->
+	<h1>Clarusway Survey Form</h1>
+	<p>Thank you for taking the time to help us improve the platform</p>
+	<form action="#">
+		<div>
+	<label for="name">Name</label><br><br>
+	<input type="text" id="name" placeholder="Enter your name" required>
+	<br>
+	<label for="sname">Surname</label><br><br>
+	<input type="text" id="sname" placeholder="Enter your Surname">
+	<br>
+	<label for="email">E-mail</label><br><br>
+	<input type="mail" id="email" placeholder="user@clarusway.com">
+	<br>	
+		<!-- seçenek kısmı -->
+	<p>Which option best describes your current role</p>
+	<select name="role" id="role">
+		<option disabled selected value>Select current role</option>
+		<option value="A">Select current role</option>
+		<option value="B">Select current role1</option>
+		<option value="C">Select current role2</option>
+	</select>
+	<!-- tavsiye bölümü -->
+	<p>Would you recommend Clarusway to a friend</p>
+	<input type="radio" name="proje" id="proje">
+	<label for="proje">Definitely,Yes</label><br>
+	<input type="radio" name="proje" id="proje1">
+	<label for="proje1">Maybe</label><br>
+	<input type="radio" name="proje" id="proje2">
+	<label for="proje2">Not sure</label><br>
+	<input type="radio" name="proje" id="proje3">
+	<label for="proje3">Definitely,No</label>
+
+	<!-- favori özellik -->
+	<p>What is your favorite feature of Clarusway</p>
+	<select name="role" id="role">
+		<option value="A">Select current role</option>
+		<option value="B">Select current role1</option>
+		<option value="C">Select current role2</option>
+	</select>
+	<p>What would you like to see improved?(check all that apply)</p>
+	<input type="checkbox" name="proje" id="proje">
+	<label for="proje">Front-end Projects</label><br>
+	<input type="checkbox" name="proje" id="proje1">
+	<label for="proje1checkbox">Back-end Projects</label><br>
+	<input type="checkbox" name="proje" id="proje2">
+	<label for="proje2">Data Science</label><br>
+	<input type="checkbox" name="proje" id="proje3">
+	<label for="proje3">Additional Courses</label>
+
+	
+	
+	
+		<p><label for="comment">Any comments or suggestions?</label></p>
+		<textarea id="comment" name="comment" rows="2" cols="25"placeholder="Enter your comment here... Thanks for you">
+		</textarea>
+		<input type="submit" value="Submit">
+	  </div>
+  </form>
+
+</body>
+</html>
