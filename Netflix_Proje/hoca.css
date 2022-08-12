@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	 /* //eklediğimiz paddinglerde patlama olmuyor  border sizing verince
+	 */
+}
+body{
+	background-image: url(./background_image.jpg);
+	color: white;
+}
+#container{
+	/* transparan buyk siyah kısım */
+	/* max dediğim için 1240px üzerine çıkma diyor sayfa buyuyup kuculdugunde// */ */
+	
+	max-width: 1240px; 
+	height: 1036px;
+	background-color: rgba(0,0,0,0.3);
+	/*transparan kısmı margin auto ile ortaladık */
+	margin: auto;
+	/* yukarıdan 30px asgıya indşrdk */
+	margin-top: 30px
+}
+/* netflix yazısının oldugu kısım */
+#title{
+	font-size: 3.1rem;
+	color: white;
+
+}
+span{
+	color: red;
+}
+#description{
+	color: white;
+}
+#header{
+	/* üstteki yazıyı ortalıyoruz */
+	text-align: center;
+}
+textarea{
+	/* yorum satırı kullanıcı tarafından buyutulemez */
+	resize: none;
+}
+#survey-form-container{
+	width: 500px;
+	height: 897px;
+	background-color: rgba(0,0,0,0.8);
+	/* margin:auto width vermeden calısmıyor */
+	margin: auto;
+	/* kutudan yukarıya doğru 30px bir boşluk var; */
+	/* sol ve sagdan 40 px bosluk var bunun için */
+	padding: 30px 40px;
+
+}
+#name,
+#age,
+#mail,
+#dropdown,
+#feedback{
+	width: 100%;
+	padding: 12px 10px;
+	margin-top: 10px;
+	/* margin top 10 px yazı ile kutu arasına boşluk verdik */
+
+}
+.input-box{
+	margin-top: 10px;
+}
+#form-button{
+	width: 160px;
+	height: 45px;
+	background-color: red;
+	color: white;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+}
+.form-submit{
+	margin: auto;
+	width: 160px;
+	height: 15px;
+	margin-top: 20px;
+}
+
+#form-button:hover{
+	background-color: white;
+	color: red;
+
+}
