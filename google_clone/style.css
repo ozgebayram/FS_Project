@@ -170,6 +170,7 @@ footer {
 	  border-bottom: 1px solid #e4e4e4;
 	  margin-left: 13px;
 	  color: #5f6368;
+	  cursor: pointer;
 }
   
 .nav {
@@ -181,8 +182,17 @@ footer {
 .f_left {
 	float: left;
 }
+.f_left a:hover{
+	text-decoration: underline;
+}
   
 .f_right {
 	float: right;
 	margin-right: 25px;
+}
+.f_right a:hover{
+	text-decoration: underline;
+}
+.footer:hover{
+	text-decoration: underline;
 }
