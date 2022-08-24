@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 1rem;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: white;
+  }
+  .container {
+	width: 100%;
+  }
+  
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .col-1 {
+	width: 8.333333%;
+  }
+  
+  .col-2 {
+	width: 16.666667%;
+  }
+  
+  .col-3 {
+	width: 25%;
+  }
+  
+  .col-4 {
+	width: 33.333333%;
+  }
+  
+  .col-5 {
+	width: 41.666667%;
+  }
+  
+  .col-6 {
+	width: 50%;
+  }
+  
+  .col-7 {
+	width: 58.333333%;
+  }
+  
+  .col-8 {
+	width: 66.666667%;
+  }
+  
+  .col-9 {
+	width: 75%;
+  }
+  
+  .col-10 {
+	width: 83.333333%;
+  }
+  
+  .col-11 {
+	width: 91.666667%;
+  }
+  
+  .col-12 {
+	width: 100%;
+  }
+  
+  .logo {
+	background-color:#0CECDD;
+	padding: 1rem;
+  }
+  
+  .menu {
+	background-color: #FFF338;
+	padding: 1rem;
+  }
+  .banner {
+	background-color: #FF67E7;
+	padding: 4rem;
+  }
+  .footer{
+	background-color: #541690;
+	padding: 2rem;
+  }
+  .bolum2{
+	background-color: #FF8D29;
+	padding: 1rem;
+	border: 1px solid grey;
+	
+  }
+  .bolum1{
+	background-color: #30AADD;
+	border: 1px solid grey;
+	height: 460px;
+	
+  }
+
+  .row1{
+	display: flex;
+	justify-content: center;
+  }
+  .row2{
+	display: flex;
+
+
+  }
+  .footer{
+	position: absolute;
+	bottom: 0;
+  }
+
+  
